@@ -3,19 +3,19 @@
 Create a MongoDB database via Python's pymongo. Create functions to query the database per State and Genus, and plot bar charts of Count of Species Per State. <br/>
 
 ## Methods ##
-Connect to Mongo and define a database.
-Loop through State CSV Files and define state dataframes. 
-Parse the 'Scientific Name with Author' value and extract the first to words on the string (Genus, Species). 
-Create Fuctions to query Mongo Database by changing State and Genus sought to query. 
+Connect to Mongo and define a database. </br>
+Loop through State CSV Files and define state dataframes. </br>
+Parse the 'Scientific Name with Author' value and extract the first to words on the string (Genus, Species). </br>
+Create Fuctions to query Mongo Database by changing State and Genus sought to query. </br>
 
-#Visualizations
+## Visualizations ##
 <img src="/Visualizations/CalamagrostisSpeciesPerState.jpg" width =700> </br>
 <img src="/Visualizations/CarexSpeciesPerState.jpg" width =700> </br>
 <img src="/Visualizations/MiscanthusSpeciesPerState.jpg" width =700> </br>
 <img src="/Visualizations/MuhlenbergiaSpeciesPerState.jpg" width =700> </br>
 
 ## MongoDB ##
--The Plant Database is formatted by State Collections of Records of Locally Occuring Plants and Described Plants.
+-The Plant Database is formatted by State Collections of Records of Locally Occuring Plants and Described Plants.</br>
 
 ## Objectives: ##
 -Compile State Native Plant Data From the USDA State PLANTS Checklist.<br/>
